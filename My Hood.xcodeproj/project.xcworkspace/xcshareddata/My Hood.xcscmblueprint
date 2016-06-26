@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D1BD0B4464B8C7B52A55862792C73FF2EE987B9C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "491D593C1B2DE7ECD241BE0EEB46B55DE46D38E1" : 0,
+    "D1BD0B4464B8C7B52A55862792C73FF2EE987B9C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C97055AB-2013-4E9F-B093-F8BD65DD1162",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "491D593C1B2DE7ECD241BE0EEB46B55DE46D38E1" : "",
+    "D1BD0B4464B8C7B52A55862792C73FF2EE987B9C" : "My%20Hood\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "My Hood",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "My Hood.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Coprograming\/Calculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "491D593C1B2DE7ECD241BE0EEB46B55DE46D38E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Coprograming\/My-Hood.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D1BD0B4464B8C7B52A55862792C73FF2EE987B9C"
+    }
+  ]
+}
