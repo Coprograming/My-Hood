@@ -12,6 +12,10 @@
 		4A824EAD1D1F43F3004F5EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A824EAB1D1F43F3004F5EDD /* Main.storyboard */; };
 		4A824EAF1D1F43F3004F5EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A824EAE1D1F43F3004F5EDD /* Assets.xcassets */; };
 		4A824EB21D1F43F4004F5EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A824EB01D1F43F4004F5EDD /* LaunchScreen.storyboard */; };
+		4A824EBB1D1F44CC004F5EDD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A824EBA1D1F44CC004F5EDD /* Post.swift */; };
+		4A824EBE1D1F59D1004F5EDD /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A824EBD1D1F59D1004F5EDD /* PostCell.swift */; };
+		4A824EC11D1F6121004F5EDD /* AddPosttoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A824EC01D1F6121004F5EDD /* AddPosttoVC.swift */; };
+		4A824EC41D1F742C004F5EDD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A824EC31D1F742C004F5EDD /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		4A824EAE1D1F43F3004F5EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A824EB11D1F43F4004F5EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A824EB31D1F43F4004F5EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A824EBA1D1F44CC004F5EDD /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4A824EBD1D1F59D1004F5EDD /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		4A824EC01D1F6121004F5EDD /* AddPosttoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPosttoVC.swift; sourceTree = "<group>"; };
+		4A824EC31D1F742C004F5EDD /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,50 @@
 		4A824EA61D1F43F3004F5EDD /* My Hood */ = {
 			isa = PBXGroup;
 			children = (
+				4A824EC21D1F741B004F5EDD /* Services */,
+				4A824EB91D1F4495004F5EDD /* Model */,
+				4A824EBC1D1F596C004F5EDD /* View */,
+				4A824EBF1D1F60C9004F5EDD /* Controller */,
 				4A824EA71D1F43F3004F5EDD /* AppDelegate.swift */,
-				4A824EA91D1F43F3004F5EDD /* ViewController.swift */,
-				4A824EAB1D1F43F3004F5EDD /* Main.storyboard */,
 				4A824EAE1D1F43F3004F5EDD /* Assets.xcassets */,
-				4A824EB01D1F43F4004F5EDD /* LaunchScreen.storyboard */,
 				4A824EB31D1F43F4004F5EDD /* Info.plist */,
 			);
 			path = "My Hood";
+			sourceTree = "<group>";
+		};
+		4A824EB91D1F4495004F5EDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A824EBA1D1F44CC004F5EDD /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4A824EBC1D1F596C004F5EDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A824EBD1D1F59D1004F5EDD /* PostCell.swift */,
+				4A824EAB1D1F43F3004F5EDD /* Main.storyboard */,
+				4A824EB01D1F43F4004F5EDD /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4A824EBF1D1F60C9004F5EDD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A824EA91D1F43F3004F5EDD /* ViewController.swift */,
+				4A824EC01D1F6121004F5EDD /* AddPosttoVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4A824EC21D1F741B004F5EDD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4A824EC31D1F742C004F5EDD /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A824EBB1D1F44CC004F5EDD /* Post.swift in Sources */,
 				4A824EAA1D1F43F3004F5EDD /* ViewController.swift in Sources */,
 				4A824EA81D1F43F3004F5EDD /* AppDelegate.swift in Sources */,
+				4A824EC41D1F742C004F5EDD /* DataService.swift in Sources */,
+				4A824EBE1D1F59D1004F5EDD /* PostCell.swift in Sources */,
+				4A824EC11D1F6121004F5EDD /* AddPosttoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +300,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "My Hood/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coprograming.com.My-Hood";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -263,10 +314,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "My Hood/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coprograming.com.My-Hood";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
